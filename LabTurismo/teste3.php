@@ -6,7 +6,7 @@
 <body>
     Exercicio 3 <br> 
 <?php 
-function encontrarSequenciaMagica($s) {
+function sequencia($s) {
     // Definindo o array com as vogais
     $vogais = ['a', 'e', 'i', 'o', 'u'];
     // Obtendo o tamanho da string de entrada
@@ -35,7 +35,7 @@ function encontrarSequenciaMagica($s) {
     return $max_subsequencia;
 }
 $s = "aeiaaioooaauuaeiou";
-echo encontrarSequenciaMagica($s); 
+echo sequencia($s); 
 ?>
 </body>
 </html>
